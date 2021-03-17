@@ -20,7 +20,7 @@ info = DataContext.Goods.where(lambda x: x.Id == 1).first_of_default()
 info.Name = "lolo"
 
 DataContext.Goods.update(info)
-
+ # lol
 DataContext.Goods.save_change()
 
 
